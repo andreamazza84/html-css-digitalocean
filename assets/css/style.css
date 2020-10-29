@@ -12,14 +12,8 @@ h1{
   font-weight: 700;
 }
 /* Utility */
-/* aggiungere media query */
-.container{
-  max-width: 70%;
-}
 /* /Utility */
-.btn_white{
-
-}
+/* aggiungere media query */
 /* Structure */
 #ms_header{}
 #ms_navbar{
@@ -65,5 +59,37 @@ h1{
 /* /Structure */
 
 /* General */
+.container{
+  max-width: 70%;
+}
+.ms_btn_white{
+  display: inline-block;
+  padding: 5px 7px;
+  color: #0080ff;
+  border: 1px solid #0080ff;
+  border-radius: 3px;
+}
+.ms_btn_white:hover{
+  color: white;
+  background-color: #0080ff;
+}
 
 /* /General */
+
+/* Header */
+/* Navbar */
+#ms_navbar{
+  font-size: 13px;
+  font-weight: 500;
+}
+#ms_navbar .ms_logo img{
+  width: 140px;
+  vertical-align: super;
+  padding-bottom: 5px;
+}
+#ms_navbar a{
+  color: #031c4e;
+}
+#ms_navbar .navbar-right li:last-child > a{
+  padding: 10px 0 10px 15px;
+}
