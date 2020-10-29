@@ -12,6 +12,9 @@ h1{
   font-weight: 700;
 }
 /* Utility */
+.mt80{
+  margin-top: 80px;
+}
 /* /Utility */
 /* aggiungere media query */
 /* Structure */
@@ -95,4 +98,9 @@ h1{
 }
 #ms_navbar .navbar-right li:last-child > a{
   padding: 10px 0 10px 15px;
+}
+/* /navbar */
+/* jumbo */
+#ms_jumbo{
+  color: white;
 }
