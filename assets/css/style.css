@@ -60,7 +60,7 @@ h1{
 
 /* General */
 .container{
-  max-width: 70%;
+  /* max-width: 80%; */
 }
 .ms_btn_white{
   display: inline-block;
@@ -82,13 +82,16 @@ h1{
   font-size: 13px;
   font-weight: 500;
 }
+#ms_navbar .ms_logo{
+  padding-top: 12px;
+}
 #ms_navbar .ms_logo img{
   width: 140px;
-  vertical-align: super;
-  padding-bottom: 5px;
 }
 #ms_navbar a{
   color: #031c4e;
+  padding-left: 10px;
+  padding-right: 10px
 }
 #ms_navbar .navbar-right li:last-child > a{
   padding: 10px 0 10px 15px;
