@@ -16,7 +16,7 @@ h2{
   font-weight: 600;
 }
 h3{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
 }
 h5{
@@ -332,3 +332,40 @@ p{
 }
 /* /Features */
 /* Table */
+#ms_table{
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+}
+#ms_table h3{
+  margin-bottom: 20px;
+}
+#ms_table .container .row{
+  border-bottom: 1px solid white;
+}
+#ms_table .container .row:last-child{
+  border-bottom: none;
+}
+#ms_table .row > .ms_th,
+#ms_table .row > .ms_td{
+  padding: 15px 0;
+  text-align: left;
+}
+#ms_table .row > .ms_td:nth-child(3n+3){
+  text-align: right;
+}
+#ms_table .ms_td > a{
+  color: #00b1c7;
+  text-decoration: none;
+  font-weight: 600;
+}
+#ms_table .ms_th{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#ms_table .ms_container{
+  max-width: 90%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
