@@ -1,3 +1,17 @@
 /* Tablet view */
+/* Sponsors */
+@media screen and (min-width: 992px){
+  #ms_sponsor .container .ms_align:first-of-type {
+    text-align: right;
+  }
+  #ms_sponsor .container .ms_align:last-of-type {
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 991px){
+  #ms_sponsor img{
+    padding: 0 20px;
+    max-width: 180px;
+  }
 }
