@@ -17,14 +17,14 @@
   #ms_deploy .ms_leftmenu ul{
     margin-left: 0;
   }
-  #ms_preview figure .ms_arrow_left::before,
-  #ms_preview figure .ms_arrow_right::after {
+  .ms_arrow_left::before,
+  .ms_arrow_right::after {
     display: none;
   }
   #ms_preview figure img{
     width: 60%;
   }
-  #ms_preview .ms_scroll{
+  .ms_scroll{
     margin-bottom: 80px;
   }
 }
