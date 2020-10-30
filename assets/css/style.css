@@ -264,13 +264,13 @@ p{
 }
 /* /left-menu */
 /* smallcard */
-#ms_deploy .ms_smallcard{
+.ms_smallcard{
   text-align: left;
 }
-#ms_deploy .ms_smallcard h5{
+.ms_smallcard h5{
   color: #031c4e;
 }
-#ms_deploy .ms_smallcard p{
+.ms_smallcard p{
   font-size: 16px;
   color: #7b859e;
 }
@@ -313,3 +313,22 @@ p{
 #ms_preview .ms_scroll{
   color: #006aff;
 }
+/* /Preview */
+#ms_features{
+  text-align: center;
+  padding: 40px 0;
+}
+#ms_features h3{
+  color: #031c4e;
+  margin-bottom: 20px;
+}
+.ms_smallcard a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #006aff;
+  margin-bottom: 20px;
+}
+/* /Features */
+/* Table */
