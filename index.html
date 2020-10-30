@@ -16,6 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <!-- Style -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+
   <title>Digital-Ocean by Boolean</title>
 </head>
 <body>
@@ -68,23 +70,26 @@
     <section id="ms_jumbo">
       <div class="container">
         <div class="row mt80">
-          <div class="col-lg-7 ">
+          <div class="col-lg-7 col-md-7 col-xs-12 ms_title">
             <h1>The simplest cloud platform for developers & teams</h1>
             <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and bisinesses, whether you're running one virtual machine or then thousand.</p>
           </div>
-          <div class="col-lg-5">
-            <div id="ms_card">
-              <h3>Deploy your app in seconds. <span>Get started now.</span></h3>
+          <div class="col-lg-5 col-md-5 col-xs-12 ms_card_container">
+            <div class="ms_card">
+              <h3>Deploy your app in seconds. <br><span>Get started now.</span></h3>
               <!-- Form - singup with your email -->
-              <form action="">
+              <form action="#">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Password">
-                <input type="submit" value="Create your account">
+                <input id="ms_submit" type="submit" value="Create your account">
               </form>
               <!-- Form - singup with Google -->
-              <form action="">
-                <button type="submit">G Sign up with google</button>
+              <form action="#">
+                <button id="ms_Gsubmit" type="submit">
+                  <!-- <img src="assets/img/google_logo.png" alt="Google logo"> -->
+                   Sign up with google</button>
               </form>
+              <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
             </div>
           </div>
         </div>

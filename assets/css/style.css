@@ -8,8 +8,11 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 h1{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
+}
+p{
+  font-size: 20px;
 }
 /* Utility */
 .mt80{
@@ -23,47 +26,47 @@ h1{
   background: white;
 }
 #ms_jumbo{
-  height: 450px;
+  min-height: 450px;
   background: #004aff;
 }
 #ms_main{}
 #ms_sponsor{
-  height: 250px;
+  min-height: 250px;
   background: #f3f5f9;
 }
 #ms_deploy{
-  height: 620px;
+  min-height: 620px;
   background: white;
 }
 #ms_preview{
-  height: 680px;
+  min-height: 680px;
   background: #f3f5f9;
 }
 #ms_features{
-  height: 400px;
+  min-height: 400px;
   background: white;
 }
 #ms_table{
-  height: 400px;
+  min-height: 400px;
   background: #084ec7;
 }
 #ms_carosel{
-  height: 600px;
+  min-height: 600px;
   background: white;
 }
 #ms_getstarted{
-  height: 250px;
+  min-height: 250px;
   background: #0042bb;
 }
 #ms_footer{
-  height: 400px;
+  min-height: 400px;
   background: #031c4e;
 }
 /* /Structure */
 
 /* General */
 .container{
-  /* max-width: 80%; */
+  /* max-width: 70%; */
 }
 .ms_btn_white{
   display: inline-block;
@@ -96,11 +99,82 @@ h1{
   padding-left: 10px;
   padding-right: 10px
 }
+#ms_navbar .navbar-left li > a,
+#ms_navbar .navbar-right li > a{
+  padding: 15px 5px 15px 5px;
+}
+#ms_navbar .navbar-left li:last-child > a{
+  padding: 15px 0 15px 10px;
+}
 #ms_navbar .navbar-right li:last-child > a{
-  padding: 10px 0 10px 15px;
+  padding: 10px 15px;
 }
 /* /navbar */
 /* jumbo */
 #ms_jumbo{
   color: white;
+  background-image: url(../img/jumbo.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+#ms_jumbo .ms_title > h1,
+#ms_jumbo .ms_title > p {
+  padding-right: 50px;
+}
+#ms_jumbo .ms_card {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+#ms_jumbo .ms_card h3{
+  color: #031c4e;
+  line-height: 1.2;
+}
+#ms_jumbo .ms_card h3>span{
+  color: #0080ff;
+}
+#ms_jumbo .ms_card input,
+#ms_jumbo .ms_card button{
+  display: inline-block;
+  width: 90%;
+  color: #444;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px 2px;
+  font-weight: 500;
+  border: 1px solid #aaa;
+}
+#ms_jumbo .ms_card button{
+  background-image: url(../img/google_logo.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+}
+#ms_jumbo .ms_card #ms_submit{
+  background-color: #579aff;
+  color: white;
+  border: 1px solid #579aff;
+}
+#ms_jumbo .ms_card #ms_submit:hover{
+  background-color: #357acc;
+  border: 1px solid #357acc;
+}
+#ms_jumbo .ms_card #ms_Gsubmit{
+  background-color: white;
+}
+#ms_jumbo .ms_card #ms_Gsubmit:hover{
+  background-color: #ddd;
+}
+#ms_jumbo .ms_card #ms_Gsubmit > img{
+  height: 20px;
+}
+#ms_jumbo .ms_card p{
+  color: #222;
+  font-size: 13px;
+  margin-top: 8px;
+}
+#ms_jumbo .ms_card p>a{
+  color: #4992ff;
 }
