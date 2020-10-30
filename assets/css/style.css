@@ -11,6 +11,10 @@ h1{
   font-size: 50px;
   font-weight: 700;
 }
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
 p{
   font-size: 20px;
 }
@@ -218,4 +222,27 @@ p{
 #ms_deploy{
   text-align: center;
   padding: 40px 0;
+}
+#ms_deploy h3{
+  color: #031c4e
+}
+#ms_deploy p.ms_subtitle{
+  color: #222;
+  margin-bottom: 40px;
+}
+#ms_deploy ul{
+  border-left: 1px solid #888;
+  text-align: left;
+  margin-left: 40%;
+}
+#ms_deploy ul li{
+  list-style: none;
+}
+#ms_deploy ul li a{
+  text-decoration: none;
+  color: #7b859e;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-left: 10px;
 }
