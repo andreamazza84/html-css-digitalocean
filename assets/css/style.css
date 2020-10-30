@@ -289,9 +289,20 @@ p{
 }
 #ms_preview figure img{
   margin-bottom: 20px;
+  text-align: center;
 }
-#ms_preview figure img::before{
+#ms_preview figure .ms_arrow_left::before{
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f104";
+  font-size: 40px;
+  padding-right: 20px;
+}
+#ms_preview figure .ms_arrow_right::after{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
+  font-size: 40px;
+  padding-left: 20px;
+}
+#ms_preview figure > a{
+  text-decoration: none;
 }
 #ms_preview figure figcaption{
   color: #031c4e;
