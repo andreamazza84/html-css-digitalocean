@@ -14,4 +14,8 @@
     padding: 0 20px;
     max-width: 180px;
   }
+  #ms_deploy .ms_leftmenu ul{
+    margin-left: 0;
+
+  }
 }

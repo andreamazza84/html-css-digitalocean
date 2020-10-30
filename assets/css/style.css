@@ -15,6 +15,14 @@ h2{
   font-size: 40px;
   font-weight: 600;
 }
+h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+h5{
+  font-size: 20px;
+  font-weight: 700;
+}
 p{
   font-size: 20px;
 }
@@ -230,19 +238,32 @@ p{
   color: #222;
   margin-bottom: 40px;
 }
-#ms_deploy ul{
+/* left-menu */
+#ms_deploy .ms_leftmenu ul{
   border-left: 1px solid #888;
   text-align: left;
   margin-left: 40%;
 }
-#ms_deploy ul li{
+#ms_deploy .ms_leftmenu ul li{
   list-style: none;
 }
-#ms_deploy ul li a{
+#ms_deploy .ms_leftmenu ul li a{
   text-decoration: none;
   color: #7b859e;
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 32px;
   text-transform: capitalize;
   padding-left: 10px;
+}
+/* /left-menu */
+/* smallcard */
+#ms_deploy .ms_smallcard{
+  text-align: left;
+}
+#ms_deploy .ms_smallcard h5{
+  color: #031c4e;
+}
+#ms_deploy .ms_smallcard p{
+  font-size: 16px;
+  color: #7b859e;
 }
