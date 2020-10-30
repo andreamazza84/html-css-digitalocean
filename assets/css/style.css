@@ -39,6 +39,13 @@ p{
 .ar{
   text-align: right;
 }
+.ms_icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
 /* /Utility */
 /* aggiungere media query */
 /* Structure */
@@ -266,4 +273,32 @@ p{
 #ms_deploy .ms_smallcard p{
   font-size: 16px;
   color: #7b859e;
+}
+/* /DEPLOY */
+/* PREVIEW */
+#ms_preview{
+  text-align: center;
+  padding: 40px 0;
+}
+#ms_preview h3{
+  color: #031c4e;
+}
+#ms_preview p{
+  color: #222;
+  margin: 30px 0 40px 0;
+}
+#ms_preview figure img{
+  margin-bottom: 20px;
+}
+#ms_preview figure img::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f104";
+}
+#ms_preview figure figcaption{
+  color: #031c4e;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#ms_preview .ms_scroll{
+  color: #006aff;
 }
