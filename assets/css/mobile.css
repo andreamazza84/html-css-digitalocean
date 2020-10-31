@@ -1,15 +1,21 @@
 /* Tablet view */
 /* Sponsors */
-@media screen and (min-width: 992px){
-  #ms_sponsor .container .ms_align:first-of-type {
+@media screen and (min-width: 991px){
+  #ms_sponsor .container .ms_sponsors{
+    /* max-width: calc(991px / 3); */
+  }
+  #ms_sponsor .container .ms_sponsors:first-of-type {
     text-align: right;
   }
-  #ms_sponsor .container .ms_align:last-of-type {
+  #ms_sponsor .container .ms_sponsors:last-of-type {
     text-align: left;
   }
 }
-@media screen and (max-width: 1199px){
 
+@media screen and (min-width: 991px) and (max-width: 1200px){
+  #ms_preview figure img{
+    width: 70%;
+  }
 }
 @media screen and (max-width: 991px){
   #ms_sponsor img{
@@ -18,10 +24,6 @@
   }
   #ms_deploy .ms_leftmenu ul{
     margin-left: 0;
-  }
-  .ms_arrow_left::before,
-  .ms_arrow_right::after {
-    display: none;
   }
   #ms_preview figure img{
     width: 60%;
@@ -34,12 +36,20 @@
   }
 
 @media screen and (max-width: 768px){
+  /* #ms_preview */
+  .ms_arrow_left::before,
+  .ms_arrow_right::after {
+    display: none;
+  }
+  /* /#ms_preview */
+  /* /Main */
+
+  /* Footer */
   /* Shark - spostamento a sinistra */
   .ms_help{
     left: 5%;
     text-align: left;
   }
-  
   .ms_shark_left{
     display: block;
   }
@@ -49,4 +59,5 @@
   .ms_shark_right{
     display: none;
   }
+  /* /Shark */
 }

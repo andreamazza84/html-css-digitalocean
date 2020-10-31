@@ -30,6 +30,9 @@ a{
   text-decoration: none;
 }
 /* Utility */
+.mauto{
+  margin: auto;
+}
 .mt80{
   margin-top: 80px;
 }
@@ -96,7 +99,7 @@ a{
   background: #0042bb;
 }
 #ms_footer{
-  min-height: 450px;
+  min-height: 480px;
   background: #031c4e;
 }
 #ms_sponsor,
@@ -250,6 +253,7 @@ a{
   color: #777;
   text-transform: uppercase;
 }
+
 #ms_sponsor img{
   max-height: 35px;
   max-width: 150px;
@@ -477,10 +481,9 @@ color: #a4acbb;
 /* Shark */
 .ms_help{
   display: inline-block;
-  /* width: 50%; */
-  position: absolute;
+  position: fixed;
   bottom: 20px;
-  right: 5%;
+  right: 20px;
   text-align: right;
 }
 .ms_fumetto{
