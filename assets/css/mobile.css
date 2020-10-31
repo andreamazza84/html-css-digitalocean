@@ -8,7 +8,12 @@
     text-align: left;
   }
 }
-
+@media screen and (max-width: 1199px){
+  /* Shark - spostamento a sinistra */
+  .ms_help{
+    left: 5%;
+  }
+}
 @media screen and (max-width: 991px){
   #ms_sponsor img{
     padding: 0 20px;

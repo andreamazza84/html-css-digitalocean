@@ -96,7 +96,7 @@ a{
   background: #0042bb;
 }
 #ms_footer{
-  min-height: 400px;
+  min-height: 450px;
   background: #031c4e;
 }
 #ms_sponsor,
@@ -433,6 +433,9 @@ a{
   font-weight: 700;
 }
 /* Footer */
+#ms_footer{
+  position: relative;
+}
 #ms_footer .ms_credits{
   color: #7a859d;
   margin-bottom: 40px;
@@ -470,4 +473,62 @@ a{
 #ms_footer .ms_author,
 #ms_footer .ms_CPCS ul li a{
 color: #a4acbb;
+}
+/* Shark */
+.ms_help{
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  text-align: right;
+}
+.ms_fumetto{
+  display: inline-block;
+  width: 320px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 3px;
+  color: #031c4e;
+  text-align: left;
+}
+.ms_fumetto .ms_question{
+  font-size: 14px;
+  font-weight: 500;
+}
+.ms_help .fa-caret-right{
+  color: white;
+  margin-left: -5px;
+  font-size: 30px;
+  vertical-align: bottom;
+}
+.ms_shark{
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  margin-left: 10px;
+}
+.ms_shark img{
+  height: 65px;
+  background-color: #006aff;
+  border-radius: 3px;
+}
+.ms_shark .ms_badge{
+  position: absolute;
+  transform: translate(25%, -25%);
+  right: 0;
+  top: 0;
+  display: inline-block;
+  min-width: 25px;
+  min-height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 10px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50%;
 }
