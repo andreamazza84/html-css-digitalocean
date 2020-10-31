@@ -477,36 +477,40 @@ color: #a4acbb;
 /* Shark */
 .ms_help{
   display: inline-block;
-  width: 50%;
+  /* width: 50%; */
   position: absolute;
-  bottom: 5%;
+  bottom: 20px;
   right: 5%;
   text-align: right;
 }
 .ms_fumetto{
+  position: relative;
   display: inline-block;
-  width: 320px;
+  max-width: 320px;
   padding: 15px;
   background-color: white;
   border-radius: 3px;
   color: #031c4e;
   text-align: left;
+  margin: 5px 5px;
 }
 .ms_fumetto .ms_question{
   font-size: 14px;
   font-weight: 500;
 }
 .ms_help .fa-caret-right{
+  display: inline-block;
+  position: absolute;
+  right: -10px;
+  bottom: 5%;
   color: white;
-  margin-left: -5px;
-  font-size: 30px;
-  vertical-align: bottom;
+  font-size: 35px;
 }
 .ms_shark{
   display: inline-block;
   vertical-align: bottom;
   position: relative;
-  margin-left: 10px;
+  margin: 5px 5px;
 }
 .ms_shark img{
   height: 65px;
@@ -516,7 +520,7 @@ color: #a4acbb;
 .ms_shark .ms_badge{
   position: absolute;
   transform: translate(25%, -25%);
-  right: 0;
+  left: 45px;
   top: 0;
   display: inline-block;
   min-width: 25px;
@@ -532,3 +536,7 @@ color: #a4acbb;
   border: 3px solid white;
   border-radius: 50%;
 }
+.ms_shark_left{
+  display: none;
+}
+.ms_shark_right{}

@@ -9,10 +9,7 @@
   }
 }
 @media screen and (max-width: 1199px){
-  /* Shark - spostamento a sinistra */
-  .ms_help{
-    left: 5%;
-  }
+
 }
 @media screen and (max-width: 991px){
   #ms_sponsor img{
@@ -31,5 +28,25 @@
   }
   .ms_scroll{
     margin-bottom: 80px;
+  }
+  #ms_footer .container{
+    width: 95%;
+  }
+
+@media screen and (max-width: 768px){
+  /* Shark - spostamento a sinistra */
+  .ms_help{
+    left: 5%;
+    text-align: left;
+  }
+  
+  .ms_shark_left{
+    display: block;
+  }
+  .ms_fumetto {
+    float: left;
+  }
+  .ms_shark_right{
+    display: none;
   }
 }
