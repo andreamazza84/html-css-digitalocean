@@ -168,14 +168,11 @@ a{
 #ms_navbar .navbar-right li > a{
   padding: 15px 5px 15px 5px;
 }
-/* #ms_navbar .navbar-left li:last-child > a{
-  padding: 15px 0 15px 10px;
-} */
 #ms_navbar .navbar-right li:last-child > a{
   padding: 10px 15px;
 }
 #ms_navbar .navbar-left li > a:hover,
-#ms_navbar .navbar-right li > a:not(.ms_btn_white):hover{
+#ms_navbar .navbar-right li > a:not(#ms_special):hover{
   background-color: #f3f5f9;
 }
 /* /navbar */
@@ -299,6 +296,8 @@ a{
 /* smallcard */
 .ms_smallcard{
   text-align: left;
+  height: 200px;
+  padding: 0 20px;
 }
 .ms_smallcard h5{
   color: #031c4e;
@@ -306,6 +305,9 @@ a{
 .ms_smallcard p{
   font-size: 16px;
   color: #7b859e;
+}
+.ms_smallcard > img{
+  height: 40px;
 }
 /* /DEPLOY */
 /* PREVIEW */
@@ -320,12 +322,12 @@ a{
   margin-bottom: 20px;
   text-align: center;
 }
-/*#ms_preview figure*/ .ms_arrow_left::before{
+.ms_arrow_left::before{
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f104";
   font-size: 40px;
   padding-right: 20px;
 }
-/*#ms_preview figure*/ .ms_arrow_right::after{
+.ms_arrow_right::after{
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
   font-size: 40px;
   padding-left: 20px;
@@ -339,13 +341,14 @@ a{
   font-weight: 700;
   margin-bottom: 20px;
 }
-/*#ms_preview*/ .ms_scroll{
+.ms_scroll{
   color: #006aff;
 }
 /* /Preview */
+/* Features */
 #ms_features h3{
   color: #031c4e;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .ms_smallcard a{
   display: inline-block;
