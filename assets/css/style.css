@@ -168,11 +168,15 @@ a{
 #ms_navbar .navbar-right li > a{
   padding: 15px 5px 15px 5px;
 }
-#ms_navbar .navbar-left li:last-child > a{
+/* #ms_navbar .navbar-left li:last-child > a{
   padding: 15px 0 15px 10px;
-}
+} */
 #ms_navbar .navbar-right li:last-child > a{
   padding: 10px 15px;
+}
+#ms_navbar .navbar-left li > a:hover,
+#ms_navbar .navbar-right li > a:not(.ms_btn_white):hover{
+  background-color: #f3f5f9;
 }
 /* /navbar */
 /* jumbo */

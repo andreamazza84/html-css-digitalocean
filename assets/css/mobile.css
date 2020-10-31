@@ -1,23 +1,23 @@
 /* Tablet view */
-/* Sponsors */
-@media screen and (min-width: 991px){
-  #ms_sponsor .container .ms_sponsors{
-    /* max-width: calc(991px / 3); */
-  }
-  #ms_sponsor .container .ms_sponsors:first-of-type {
+
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 992px) {
+  #ms_sponsor .ms_sponsors:first-of-type {
     text-align: right;
   }
-  #ms_sponsor .container .ms_sponsors:last-of-type {
+  #ms_sponsor .ms_sponsors:last-of-type {
     text-align: left;
   }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px) {
   #ms_preview figure img{
     width: 70%;
   }
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
   #ms_sponsor img{
     padding: 0 20px;
     max-width: 180px;
