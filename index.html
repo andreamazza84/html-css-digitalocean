@@ -22,9 +22,9 @@
 </head>
 
 <body>
-  <header id="ms_header">
+  <header id="ms_header" class="ms_wth100">
     <!-- Navbar -->
-    <nav id="ms_navbar" class="navbar navbar-default navbar-fixed-top">
+    <nav id="ms_navbar" class="navbar navbar-default navbar-fixed-top ms_wth100">
       <div class="container">
         <!-- Ocean logo button and hamburger -->
         <div class="navbar-header">
@@ -35,8 +35,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand ms_logo" href="#"><img src="assets/img/logo.svg" alt="logo digital ocean"></a>
-        </div>
         <!-- /Ocean logo button and hamburger -->
+        </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -50,8 +50,8 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
             </li>
             <li><a href="#">Pricing</a></li>
-          </ul>
           <!-- /Left menu -->
+          </ul>
 
           <!-- Right menu -->
           <ul class="nav navbar-nav navbar-right">
@@ -61,22 +61,25 @@
             </li>
             <li><a href="#">Login</a></li>
             <li><a id="ms_special" href="#"><span class="ms_btn_white">Sign Up</span></a></li>
-          </ul>
           <!-- /Right menu -->
+          </ul>
 
         </div>
       </div>
     </nav>
     <!-- /Navbar -->
     <!-- Jumbo -->
-    <section id="ms_jumbo">
+    <section id="ms_jumbo" class="ms_wth100 ms_pad40-0">
       <div class="container">
-        <div class="row mt80">
-          <div class="col-lg-7 col-sm-7 col-xs-12 ms_title">
+        <div class="row">
+          <!-- Title -->
+          <div class="col-sm-7 col-xs-12 ms_title">
             <h1>The simplest cloud platform for developers &amp; teams</h1>
             <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and bisinesses, whether you're running one virtual machine or then thousand.</p>
           </div>
-          <div class="col-lg-5 col-sm-5 col-xs-12 ms_card_container">
+          <!-- /Title -->
+          <!-- Card -->
+          <div class="col-sm-5 col-xs-12 ms_card_container">
             <div class="ms_card">
               <h3>Deploy your app in seconds. <br><span>Get started now.</span></h3>
               <!-- Form - singup with your email -->
@@ -93,41 +96,44 @@
               </form>
               <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
             </div>
+          <!-- Card -->
           </div>
         </div>
       </div>
-    </section>
     <!-- /Jumbo -->
-
+    </section>
   </header>
+<!-- /HEADER -->
 
-  <main id="ms_main">
+  <main id="ms_main" class="ms_wth100">
     <!-- Sponsor -->
-    <section id="ms_sponsor">
+    <section id="ms_sponsor" class="ms_wth100 ms_txt_cent ms_pad40-0">
         <div class="container">
           <div class="row row-no-gutters">
             <h6>innovative business trust digitalocean</h6>
-            <div class="col-sm-4 col-xs-12 pd0 ms_sponsors">
+
+            <div class="col-sm-4 col-xs-12 ms_sponsors">
               <img src="assets/img/docker.png" alt="docker logo">
               <img src="assets/img/gitlab-logo.jpg" alt="gitlab logo">
             </div>
 
-            <div class="col-sm-4 col-xs-12 pd0 ms_sponsors">
+            <div class="col-sm-4 col-xs-12 ms_sponsors">
               <img src="assets/img/slack-logo.svg.png" alt="slack logo">
               <img src="assets/img/hashicorp-logo.png" alt="hashicorp logo">
             </div>
 
-            <div class="col-sm-4 col-xs-12 pd0 ms_sponsors">
+            <div class="col-sm-4 col-xs-12 ms_sponsors">
               <img src="assets/img/hashicorp-logo.png" alt="hashicorp logo">
               <img src="assets/img/splunk-logo.png" alt="splunk logo">
             </div>
+          <!-- /.row no gutters -->
           </div>
-        <p><a href="#">View customers stories &gt;</a></p>
+        <p><a href="#">View customer stories &gt;</a></p>
       </div>
     </section>
     <!-- /Sponsor -->
     <!-- Deploy -->
-    <section id="ms_deploy">
+    <section id="ms_deploy" class="ms_wth100 ms_txt_cent ms_pad40-0">
       <!-- title and description -->
       <div class="row">
         <div class="container">
@@ -140,6 +146,7 @@
       <!-- left-menu and small-cards -->
       <div class="row">
         <div class="container">
+          <!-- Left-menu -->
           <div class="col-sm-4 col-xs-12 ms_leftmenu">
             <ul>
               <li><a href="#">deploy</a></li>
@@ -149,6 +156,8 @@
               <li><a href="#">monitor</a></li>
             </ul>
           </div>
+          <!-- /Left-menu -->
+          <!-- smallcard -->
           <div class="col-sm-8 col-xs-12">
             <div class="container-fluid">
               <div class="row">
@@ -178,23 +187,25 @@
               </div>
             </div>
           </div>
+          <!-- smallcard -->
         </div>
       </div>
     </section>
     <!-- /Deploy -->
     <!-- Preview -->
-    <section id="ms_preview">
+    <section id="ms_preview" class="ms_wth100 ms_txt_cent ms_pad40-0">
       <div class="container">
         <h3>Designed for developers</h3>
         <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+
         <figure>
           <a href="#" class="ms_icon ms_arrow_left"></a>
           <img class="ms_icon ms_arrow" src="assets/img/screen.png" alt="screenshot esemplificativo dell'applicazione digitalocean">
           <a href="#" class="ms_icon ms_arrow_right"></a>
-
           <figcaption>Create compute in 55 seconds or less</figcaption>
         </figure>
-        <div class="ms_scroll">
+
+        <div class="ms_4dots">
           <i class="fas fa-circle"></i>
           <i class="far fa-circle"></i>
           <i class="far fa-circle"></i>
@@ -205,7 +216,7 @@
     </section>
     <!-- /Preview -->
     <!-- Features -->
-    <section id="ms_features">
+    <section id="ms_features" class="ms_wth100 ms_txt_cent ms_pad40-0">
       <h3>The features your business needs</h3>
       <div class="container">
         <div class="row">
@@ -215,12 +226,14 @@
             <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
             <a href="#">Pricing &gt;</a>
           </div>
+
           <div class="col-sm-4 col-xs-12 ms_smallcard">
             <img src="https://prismic-io.s3.amazonaws.com/www-static/9d343e9c-fe74-4979-8ad9-e8efc58d6ee7_dropletinboxicon.svg" alt="">
             <h5>World-class service</h5>
             <p>Free round-the-clock technical support for all customers. You'll feel love.</p>
             <a href="#">Support &gt;</a>
           </div>
+
           <div class="col-sm-4 col-xs-12 ms_smallcard">
             <img src="https://d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/developerbrand/195dcdcf-digitalocean-cloud-computing-simplicity-at-scale-47.svg" alt="">
             <h5>Reliable platform</h5>
@@ -232,10 +245,11 @@
     </section>
     <!-- /Features -->
     <!-- Table -->
-    <section id="ms_table">
-      <h3>Service your customare around the world from 12 regions.</h3>
+    <section id="ms_table" class="ms_wth100 ms_txt_cent ms_pad40-0">
+      <h3>Service your customer around the world from 12 regions.</h3>
       <div class="container">
         <div class="row">
+          <!-- col-6 -->
           <div class="col-sm-6 col-xs-12">
             <!-- table left -->
             <div class="ms_container">
@@ -281,7 +295,7 @@
           <!-- table right -->
           <div class="col-sm-6 col-xs-12">
             <div class="ms_container">
-              
+
               <div class="row">
                 <div class="col-sm-3 col-xs-3 ms_th">AMS2</div>
                 <div class="col-sm-6 col-xs-6 ms_td">Amsterdam, Netherlands</div>
@@ -327,7 +341,7 @@
     </section>
     <!-- /Table -->
     <!-- Carosel -->
-    <section id="ms_carosel">
+    <section id="ms_carosel" class="ms_wth100 ms_txt_cent ms_pad40-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
@@ -342,7 +356,7 @@
             <a href="#" class="ms_icon ms_arrow_right"></a>
 
             <!-- Scroll-bar -->
-            <div class="ms_scroll">
+            <div class="ms_4dots">
               <i class="fas fa-circle"></i>
               <i class="far fa-circle"></i>
               <i class="far fa-circle"></i>
@@ -358,7 +372,7 @@
     </section>
     <!-- /Carosel -->
     <!-- Getstarted -->
-    <section id="ms_getstarted">
+    <section id="ms_getstarted" class="ms_wth100 ms_txt_cent ms_pad40-0">
       <div class="container">
         <h3>Get started now.</h3>
         <a href="#"><span class="ms_btn_white_lite">Create your account</span></a>
@@ -366,10 +380,10 @@
       <!-- /.container -->
     </section>
     <!-- /Getstarted -->
-
   </main>
-  <!-- Footer -->
-  <footer id="ms_footer">
+<!-- /MAIN -->
+
+  <footer id="ms_footer" class="ms_pad40-0">
     <!-- Usefull links -->
     <div class="container">
       <div class="row ">
@@ -378,11 +392,11 @@
           <img src="assets/img/digitalocean-small.svg" alt="digital ocean small logo">
           <p class="ms_author">&copy; 2018 Digital Ocean, LLC. All rights reserved.<br><span>Proudly made in NY</span></p>
           <div class="ms_social">
-            <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
-            <a href="www.facebook.com"><i class="fab fa-facebook"></i></a>
-            <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
-            <a href="www.youtube.com"><i class="fab fa-youtube"></i></a>
-            <a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
 
@@ -474,6 +488,6 @@
     </div>
     <!-- /Shark assistant -->
   </footer>
-  <!-- /Footer -->
+<!-- /FOOTER -->
 </body>
 </html>

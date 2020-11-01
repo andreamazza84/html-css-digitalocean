@@ -1,8 +1,3 @@
-/* Tablet view */
-
-@media screen and (min-width: 1200px) {
-
-}
 @media screen and (min-width: 992px) {
   #ms_sponsor .ms_sponsors:first-of-type {
     text-align: right;
@@ -29,14 +24,14 @@
     margin-left: 0;
   }
   #ms_deploy .ms_smallcard{
-    height: 250px;
+    height: 260px;
   }
   /* /ms_deploy */
   /* ms_preview */
   #ms_preview figure img{
     width: 60%;
   }
-  .ms_scroll{
+  .ms_4dots{
     margin-bottom: 80px;
   }
   /* /ms_preview */
@@ -54,12 +49,12 @@
   }
   /* /#ms_preview */
   /* ms_deploy */
+  /* Questa funzione serve a mantenere le varie card allineate */
   #ms_deploy .ms_smallcard{
     height: auto;
     margin-bottom: 20px;
   }
   /* /ms_deploy */
-
   /* /Main */
 
   /* Footer */
@@ -77,5 +72,6 @@
   .ms_shark_right{
     display: none;
   }
-  /* /Shark */
+/* /Shark */
+/* /Footer */
 }

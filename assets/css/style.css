@@ -1,10 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body{
-  /* width: 1434px; */
   font-family: 'Roboto', sans-serif;
 }
 h1{
@@ -16,8 +10,11 @@ h2{
   font-weight: 600;
 }
 h3{
+  width: 98%;
+  margin: 0 auto 30px auto;
   font-size: 30px;
   font-weight: 600;
+  line-height: 1.2;
 }
 h5{
   font-size: 20px;
@@ -26,60 +23,33 @@ h5{
 p{
   font-size: 20px;
 }
-a{
-  text-decoration: none;
-}
 /* Utility */
-.mauto{
-  margin: auto;
+.ms_wth100{
+  width: 100%;
 }
-.mt80{
-  margin-top: 80px;
+.ms_pad40-0{
+  padding: 40px 0;
 }
-.pd0{
-  padding: 0;
+.ms_txt_cent{
+  text-align: center;
 }
-.al{
-  text-align: left;
-}
-.ar{
-  text-align: right;
-}
-.ms_icon::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
+
 /* /Utility */
-/* aggiungere media query */
 /* Structure */
-#ms_header{
-  width: 100%;
-}
 #ms_navbar{
-  width: 100%;
   background: white;
 }
 #ms_jumbo{
-  width: 100%;
-  min-height: 450px;
+  min-height: 500px;
   background: #004aff;
 }
-#ms_main{
-  width: 100%;
-}
 #ms_sponsor{
-  min-height: 250px;
   background: #f3f5f9;
 }
 #ms_deploy{
-  min-height: 620px;
   background: white;
 }
 #ms_preview{
-  min-height: 680px;
   background: #f3f5f9;
 }
 #ms_features{
@@ -87,42 +57,22 @@ a{
   background: white;
 }
 #ms_table{
-  min-height: 400px;
   background: #084ec7;
+  background-image: linear-gradient(#0048c5, #001e9a);
 }
 #ms_carosel{
-  min-height: 600px;
   background: #f3f5f9;
 }
 #ms_getstarted{
-  min-height: 250px;
   background: #0042bb;
+  background-image: linear-gradient(#0042bb, #00209b);
 }
 #ms_footer{
-  min-height: 480px;
   background: #031c4e;
-}
-#ms_sponsor,
-#ms_deploy,
-#ms_preview,
-#ms_features,
-#ms_table,
-#ms_carosel,
-#ms_getstarted{
-  text-align: center;
-  padding: 40px 0;
-  width: 100%;
-}
-#ms_jumbo,
-#ms_footer{
-  padding: 40px 0;
 }
 /* /Structure */
 
-/* General */
-.container{
-  /* max-width: 70%; */
-}
+/* Buttons */
 .ms_btn_white{
   display: inline-block;
   padding: 5px 7px;
@@ -145,7 +95,7 @@ a{
 .ms_btn_white_lite:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/* /General */
+/* /Buttons */
 
 /* Header */
 /* Navbar */
@@ -166,7 +116,7 @@ a{
 }
 #ms_navbar .navbar-left li > a,
 #ms_navbar .navbar-right li > a{
-  padding: 15px 5px 15px 5px;
+  padding: 15px 5px;
 }
 #ms_navbar .navbar-right li:last-child > a{
   padding: 10px 15px;
@@ -183,21 +133,23 @@ a{
   background-size: cover;
   background-position: center;
 }
+#ms_jumbo .row{
+  margin-top: 80px;
+}
 #ms_jumbo .ms_title > h1,
-#ms_jumbo .ms_title > p {
+#ms_jumbo .ms_title > p{
   padding-right: 50px;
 }
-/*#ms_jumbo*/ .ms_card {
+.ms_card{
   text-align: center;
   background-color: white;
   border-radius: 5px;
   padding: 20px 10px;
 }
-/*#ms_jumbo*/ .ms_card h3{
+.ms_card h3{
   color: #031c4e;
-  line-height: 1.2;
 }
-#ms_jumbo .ms_card h3>span{
+#ms_jumbo .ms_card h3 > span{
   color: #0080ff;
 }
 #ms_jumbo .ms_card input,
@@ -254,7 +206,6 @@ a{
   color: #777;
   text-transform: uppercase;
 }
-
 #ms_sponsor img{
   max-height: 35px;
   max-width: 150px;
@@ -267,7 +218,7 @@ a{
   font-weight: 500;
 }
 /* /Sponsor */
-/* Deploy */
+/* DEPLOY - "Deploy and scale seamlessy" */
 #ms_deploy h3{
   color: #031c4e
 }
@@ -276,8 +227,11 @@ a{
   margin-bottom: 40px;
 }
 /* left-menu */
+#ms_deploy .ms_leftmenu{
+  margin-bottom: 20px;
+}
 #ms_deploy .ms_leftmenu ul{
-  border-left: 1px solid #888;
+  border-left: 1px solid #7b859e;
   text-align: left;
   margin-left: 40%;
 }
@@ -310,18 +264,25 @@ a{
   height: 40px;
 }
 /* /DEPLOY */
-/* PREVIEW */
+/* PREVIEW - "Designed for developers" */
 #ms_preview h3{
   color: #031c4e;
 }
 #ms_preview p{
-  color: #222;
+  color: #031c4e;
   margin: 30px 0 40px 0;
 }
 #ms_preview figure img{
   margin-bottom: 20px;
   text-align: center;
 }
+.ms_icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
 .ms_arrow_left::before{
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f104";
   font-size: 40px;
@@ -341,14 +302,13 @@ a{
   font-weight: 700;
   margin-bottom: 20px;
 }
-.ms_scroll{
+.ms_4dots{
   color: #006aff;
 }
 /* /Preview */
 /* Features */
 #ms_features h3{
   color: #031c4e;
-  margin-bottom: 30px;
 }
 .ms_smallcard a{
   display: inline-block;
@@ -363,9 +323,6 @@ a{
 #ms_table{
   color: white;
 }
-#ms_table h3{
-  margin-bottom: 20px;
-}
 #ms_table .container .row{
   border-bottom: 1px solid white;
 }
@@ -377,6 +334,7 @@ a{
   padding: 15px 0;
   text-align: left;
 }
+/* Allinea a destra solo l'ultima colonna */
 #ms_table .row > .ms_td:nth-child(3n+3){
   text-align: right;
 }
@@ -389,6 +347,7 @@ a{
   text-transform: uppercase;
   font-weight: bold;
 }
+/* Utilizzato un container su misura, piuttosto che ridefinire quello di Bootstrap */
 #ms_table .ms_container{
   max-width: 90%;
   height: 100%;
@@ -398,7 +357,6 @@ a{
 /* /Table */
 /* Carosel */
 #ms_carosel h3{
-  margin-bottom: 40px;
   color: #031c4e;
 }
 #ms_carosel .ms_card{
@@ -434,9 +392,6 @@ a{
 /* Getstarted */
 #ms_getstarted{
   color: white;
-}
-#ms_getstarted h3{
-  margin-bottom: 30px;
 }
 #ms_getstarted a > .ms_btn_white_lite{
   text-decoration: none;
@@ -486,6 +441,7 @@ a{
 color: #a4acbb;
 }
 /* Shark */
+/* L'aiutante rimane ancorato allo schermo in basso. */
 .ms_help{
   display: inline-block;
   position: fixed;
@@ -527,12 +483,12 @@ color: #a4acbb;
   background-color: #006aff;
   border-radius: 3px;
 }
-.ms_shark .ms_badge{
+.ms_badge{
+  display: inline-block;
   position: absolute;
   transform: translate(25%, -25%);
   left: 45px;
   top: 0;
-  display: inline-block;
   min-width: 25px;
   min-height: 25px;
   text-align: center;
@@ -549,4 +505,3 @@ color: #a4acbb;
 .ms_shark_left{
   display: none;
 }
-.ms_shark_right{}
